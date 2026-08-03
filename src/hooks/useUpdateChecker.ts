@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { refreshContentFromJSON, getContentVersion } from "@/lib/storage";
 
 const APP_VERSION_KEY = "wildside_app_version";
 const DATA_URL = "/data.json";
@@ -11,17 +12,6 @@ async function fetchDataVersion() {
     return data.version ?? null;
   } catch {
     return null;
-  }
-}
-
-function clearAppData() {
-  const keysToPreserve = ["wildside_app_version"];
-  const allKeys = Object.keys(localStorage);
-  
-  for (const key of allKeys) {
-    if (!keysToPreserve.includes(key)) {
-      localStorage.removeItem(key);
-    }
   }
 }
 
@@ -43,11 +33,11 @@ export function useUpdateChecker() {
 
         if (fileVersion !== storedVersion) {
           console.log(`[UpdateChecker] New version detected: ${storedVersion} -> ${fileVersion}`);
-          
-          clearAppData();
-          
+
+          await refreshContentFromJSON();
+          localStorage.removeItem("wildside_content");
           localStorage.setItem(APP_VERSION_KEY, fileVersion);
-          
+
           if (mounted) {
             window.location.reload();
           }
@@ -58,7 +48,7 @@ export function useUpdateChecker() {
     }
 
     checkForUpdates();
-    
+
     const interval = setInterval(checkForUpdates, 5 * 60 * 1000);
 
     return () => {
@@ -73,7 +63,13 @@ export function getCurrentVersion(): string | null {
 }
 
 export function forceUpdate() {
-  clearAppData();
-  localStorage.removeItem(APP_VERSION_KEY);
-  window.location.reload();
+  refreshContentFromJSON()
+    .then(() => {
+      localStorage.removeItem("wildside_content");
+      localStorage.setItem(APP_VERSION_KEY, getContentVersion());
+      window.location.reload();
+    })
+    .catch(() => {
+      window.location.reload();
+    });
 }

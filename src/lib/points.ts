@@ -254,8 +254,6 @@ function toCanje(r: ReturnType<typeof getRedemptions>[0]): Canje {
   };
 }
 
-initDB();
-
 export const fetchUsuarioPuntos = async (): Promise<UsuarioPuntos> => {
   const userId = getCurrentUserId();
   if (!userId) throw new Error("Usuario no autenticado");

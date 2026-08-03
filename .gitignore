@@ -32,3 +32,9 @@ Thumbs.db
 # Runtime logs
 dev-server.log
 vercel-login.log
+
+# Debug helper script
+check-braces.cjs
+
+# Lockfile (project uses npm install on deploy; not tracked)
+package-lock.json

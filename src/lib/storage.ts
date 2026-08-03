@@ -1,3 +1,6 @@
+import type { DataJson } from "./validation";
+import { DataJsonSchema } from "./validation";
+
 export interface User {
   id: string;
   username: string;
@@ -61,12 +64,70 @@ export interface AppMeta {
   nextSeasonStart: string;
 }
 
+export interface Patch {
+  id: number;
+  title: string;
+  version: string;
+  summary: string;
+  date: string;
+  type: string;
+  image: string;
+  image_url?: string | null;
+}
+
+export interface Event {
+  id: number;
+  title: string;
+  date: string;
+  type: string;
+  color: string;
+  description: string;
+}
+
+export interface Champion {
+  id: number;
+  name: string;
+  role: string;
+  tier: string;
+  winrate: number;
+  pickrate: number;
+  banrate: number;
+  icon: string;
+  image_url?: string | null;
+}
+
+export interface Item {
+  id: number;
+  name: string;
+  role: string;
+  tier: string;
+  winrate: number;
+  usage: number;
+  type: string;
+  color: string;
+}
+
+export interface Build {
+  id: number;
+  champion: string;
+  role: string;
+  winrate: number;
+  items: string[];
+}
+
 export interface Database {
+  version: string;
+  lastUpdated: string;
   users: User[];
   rewards: Reward[];
   challenges: Challenge[];
   redemptions: Redemption[];
   appMeta: AppMeta;
+  patches: Patch[];
+  events: Event[];
+  champions: Champion[];
+  items: Item[];
+  builds: Build[];
 }
 
 const STORAGE_KEY = "wildside_db";
@@ -76,6 +137,8 @@ let dbCache: Database | null = null;
 
 function getDefaultDB(): Database {
   return {
+    version: "0.0.0",
+    lastUpdated: new Date().toISOString(),
     users: [],
     rewards: [],
     challenges: [],
@@ -85,6 +148,31 @@ function getDefaultDB(): Database {
       currentSeason: "Temporada 7",
       nextSeasonStart: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString(),
     },
+    patches: [],
+    events: [],
+    champions: [],
+    items: [],
+    builds: [],
+  };
+}
+
+function normalizeDB(db: Partial<Database>): Database {
+  const defaults = getDefaultDB();
+  return {
+    ...defaults,
+    ...db,
+    version: db.version ?? defaults.version,
+    lastUpdated: db.lastUpdated ?? defaults.lastUpdated,
+    users: db.users ?? defaults.users,
+    rewards: db.rewards ?? defaults.rewards,
+    challenges: db.challenges ?? defaults.challenges,
+    redemptions: db.redemptions ?? defaults.redemptions,
+    appMeta: { ...defaults.appMeta, ...(db.appMeta ?? {}) },
+    patches: db.patches ?? defaults.patches,
+    events: db.events ?? defaults.events,
+    champions: db.champions ?? defaults.champions,
+    items: db.items ?? defaults.items,
+    builds: db.builds ?? defaults.builds,
   };
 }
 
@@ -92,7 +180,7 @@ function loadFromLocalStorage(): Database | null {
   try {
     const stored = localStorage.getItem(STORAGE_KEY);
     if (stored) {
-      return JSON.parse(stored) as Database;
+      return normalizeDB(JSON.parse(stored) as Partial<Database>);
     }
   } catch {
     return null;
@@ -100,13 +188,39 @@ function loadFromLocalStorage(): Database | null {
   return null;
 }
 
+function mergeDataJson(data: Partial<DataJson>): Database {
+  const defaults = getDefaultDB();
+  return {
+    ...defaults,
+    version: data.version ?? defaults.version,
+    lastUpdated: data.lastUpdated ?? defaults.lastUpdated,
+    users: data.users ?? defaults.users,
+    rewards: data.rewards ?? defaults.rewards,
+    challenges: data.challenges ?? defaults.challenges,
+    redemptions: data.redemptions ?? defaults.redemptions,
+    appMeta: { ...defaults.appMeta, ...(data.appMeta ?? {}) },
+    patches: data.patches ?? defaults.patches,
+    events: data.events ?? defaults.events,
+    champions: data.champions ?? defaults.champions,
+    items: data.items ?? defaults.items,
+    builds: data.builds ?? defaults.builds,
+  };
+}
+
 async function loadFromJSON(): Promise<Database> {
   try {
     const res = await fetch(DATA_URL);
     if (res.ok) {
-      return (await res.json()) as Database;
+      const raw = await res.json();
+      const parsed = DataJsonSchema.safeParse(raw);
+      if (parsed.success) {
+        return mergeDataJson(parsed.data);
+      }
+      console.error("[storage] data.json no pasó la validación:", parsed.error.issues);
+      return mergeDataJson(raw as Partial<DataJson>);
     }
-  } catch {
+  } catch (e) {
+    console.error("[storage] Error al cargar data.json:", e);
   }
   return getDefaultDB();
 }
@@ -141,6 +255,95 @@ export async function initDB(): Promise<Database> {
 export function saveDB(db: Database): void {
   dbCache = db;
   localStorage.setItem(STORAGE_KEY, JSON.stringify(db));
+}
+
+export function getPatches(): Patch[] {
+  return getDB().patches ?? [];
+}
+
+export function getEvents(): Event[] {
+  return getDB().events ?? [];
+}
+
+export function getChampions(): Champion[] {
+  return getDB().champions ?? [];
+}
+
+export function getItems(): Item[] {
+  return getDB().items ?? [];
+}
+
+export function getBuilds(): Build[] {
+  return getDB().builds ?? [];
+}
+
+export function savePatches(patches: Patch[]): void {
+  const db = getDB();
+  db.patches = patches;
+  saveDB(db);
+}
+
+export function saveEvents(events: Event[]): void {
+  const db = getDB();
+  db.events = events;
+  saveDB(db);
+}
+
+export function saveChampions(champions: Champion[]): void {
+  const db = getDB();
+  db.champions = champions;
+  saveDB(db);
+}
+
+export function saveItems(items: Item[]): void {
+  const db = getDB();
+  db.items = items;
+  saveDB(db);
+}
+
+export function saveBuilds(builds: Build[]): void {
+  const db = getDB();
+  db.builds = builds;
+  saveDB(db);
+}
+
+export function getContentVersion(): string {
+  return getDB().version ?? "0.0.0";
+}
+
+export function updateContentVersion(version: string, lastUpdated?: string): void {
+  const db = getDB();
+  db.version = version;
+  if (lastUpdated) db.lastUpdated = lastUpdated;
+  saveDB(db);
+}
+
+export async function refreshContentFromJSON(): Promise<void> {
+  const db = getDB();
+  try {
+    const res = await fetch(DATA_URL, { cache: "no-cache" });
+    if (!res.ok) return;
+    const raw = await res.json();
+    const parsed = DataJsonSchema.safeParse(raw);
+    if (!parsed.success) {
+      console.error("[storage] data.json no pasó la validación:", parsed.error.issues);
+      return;
+    }
+    const fresh = parsed.data;
+    const merged: Database = {
+      ...db,
+      version: fresh.version,
+      lastUpdated: fresh.lastUpdated,
+      patches: fresh.patches,
+      events: fresh.events,
+      champions: fresh.champions,
+      items: fresh.items,
+      builds: fresh.builds,
+    };
+    saveDB(merged);
+  } catch (e) {
+    console.error("[storage] Error al refrescar contenido:", e);
+  }
 }
 
 export function getUsers(): User[] {
@@ -409,8 +612,8 @@ export function exportDB(): string {
 
 export function importDB(json: string): boolean {
   try {
-    const db = JSON.parse(json) as Database;
-    saveDB(db);
+    const parsed = JSON.parse(json) as Partial<Database>;
+    saveDB(normalizeDB(parsed));
     return true;
   } catch {
     return false;

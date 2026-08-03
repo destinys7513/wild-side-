@@ -42,14 +42,14 @@ type DisplayItem = {
   version: string;
   type: string;
   image: string;
-  image_url?: string;
+  image_url?: string | null;
   isContrib: boolean;
   author?: string;
   contrib?: ReturnType<typeof getContributions>[0];
 };
 
 function PatchImage({ imageUrl, version, title, versionClassName }: {
-  imageUrl?: string;
+  imageUrl?: string | null;
   version: string;
   title: string;
   versionClassName: string;

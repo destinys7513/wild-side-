@@ -17,7 +17,7 @@ const TIERS = ["S+", "S", "A", "B", "C", "D"] as const;
 
 const roles = ["Todos", "Jungla", "Mid", "Baron", "Support", "Cazador"];
 
-function ChampionIcon({ imageUrl, icon, name }: { imageUrl?: string; icon: string; name: string }) {
+function ChampionIcon({ imageUrl, icon, name }: { imageUrl?: string | null; icon: string; name: string }) {
   const [errored, setErrored] = useState(false);
   return (
     <div className="w-9 h-9 rounded-lg bg-primary/20 flex items-center justify-center text-xs font-bold text-primary flex-none overflow-hidden">
