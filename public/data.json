@@ -1,6 +1,6 @@
 {
   "version": "2026-08-02-22",
-  "lastUpdated": "2026-08-03T02:06:54.765Z",
+  "lastUpdated": "2026-08-03T02:11:24.145Z",
   "users": [
     {
       "id": "user_1",
@@ -621,7 +621,7 @@
     {
       "id": 3,
       "name": "Galio",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "S",
       "winrate": 51.7,
       "pickrate": 9.7,
@@ -654,7 +654,7 @@
     {
       "id": 150,
       "name": "Gnar",
-      "role": "Jungla",
+      "role": "Baron",
       "tier": "B",
       "winrate": 49.1,
       "pickrate": 11,
@@ -709,7 +709,7 @@
     {
       "id": 74,
       "name": "Heimerdinger",
-      "role": "Support",
+      "role": "Mid",
       "tier": "D",
       "winrate": 46.6,
       "pickrate": 14.7,
@@ -907,7 +907,7 @@
     {
       "id": 60009,
       "name": "Fiddlesticks",
-      "role": "Support",
+      "role": "Mid",
       "tier": "D",
       "winrate": 46.4,
       "pickrate": 8.5,
@@ -1237,7 +1237,7 @@
     {
       "id": 60027,
       "name": "Singed",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "S",
       "winrate": 52.8,
       "pickrate": 14.9,
@@ -1435,7 +1435,7 @@
     {
       "id": 59,
       "name": "Jarvan IV",
-      "role": "Jungla",
+      "role": "Baron",
       "tier": "B",
       "winrate": 48.9,
       "pickrate": 17.7,
@@ -1677,7 +1677,7 @@
     {
       "id": 876,
       "name": "Lillia",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "S",
       "winrate": 52.3,
       "pickrate": 14.1,
@@ -1721,7 +1721,7 @@
     {
       "id": 117,
       "name": "Lulu",
-      "role": "Support",
+      "role": "Mid",
       "tier": "D",
       "winrate": 45.5,
       "pickrate": 5.2,
@@ -1743,7 +1743,7 @@
     {
       "id": 54,
       "name": "Malphite",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "S+",
       "winrate": 53.6,
       "pickrate": 6.5,
@@ -1831,7 +1831,7 @@
     {
       "id": 82,
       "name": "Mordekaiser",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "S",
       "winrate": 51.7,
       "pickrate": 19.6,
@@ -1864,7 +1864,7 @@
     {
       "id": 267,
       "name": "Nami",
-      "role": "Support",
+      "role": "Mid",
       "tier": "D",
       "winrate": 45.9,
       "pickrate": 8.5,
@@ -1941,7 +1941,7 @@
     {
       "id": 20,
       "name": "Nunu & Willump",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "S+",
       "winrate": 54.2,
       "pickrate": 21.3,
@@ -2238,7 +2238,7 @@
     {
       "id": 27,
       "name": "Singed",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "S+",
       "winrate": 53.5,
       "pickrate": 20,
@@ -2524,7 +2524,7 @@
     {
       "id": 161,
       "name": "Vel'Koz",
-      "role": "Support",
+      "role": "Mid",
       "tier": "D",
       "winrate": 46.3,
       "pickrate": 18.3,
@@ -2777,7 +2777,7 @@
     {
       "id": 143,
       "name": "Zyra",
-      "role": "Support",
+      "role": "Mid",
       "tier": "D",
       "winrate": 46.5,
       "pickrate": 11.7,
@@ -2790,7 +2790,7 @@
     {
       "id": 1,
       "name": "Shurelya's Battlesong",
-      "role": "Mid",
+      "role": "Support",
       "tier": "C",
       "winrate": 52.4,
       "usage": 32,
@@ -2810,7 +2810,7 @@
     {
       "id": 3,
       "name": "Unending Despair",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "A",
       "winrate": 47,
       "usage": 11.3,
@@ -2830,7 +2830,7 @@
     {
       "id": 5,
       "name": "Kaenic Rookern",
-      "role": "Baron",
+      "role": "Mid",
       "tier": "S",
       "winrate": 47,
       "usage": 11.5,
@@ -2840,7 +2840,7 @@
     {
       "id": 6,
       "name": "Dusk and Dawn",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "S",
       "winrate": 47.1,
       "usage": 14,
@@ -2870,7 +2870,7 @@
     {
       "id": 9,
       "name": "Bastionbreaker",
-      "role": "Cazador",
+      "role": "Jungla",
       "tier": "S",
       "winrate": 47.1,
       "usage": 16.9,
@@ -2900,7 +2900,7 @@
     {
       "id": 12,
       "name": "Bandlepipes",
-      "role": "Cazador",
+      "role": "Baron",
       "tier": "B",
       "winrate": 47.1,
       "usage": 17.3,
@@ -2910,7 +2910,7 @@
     {
       "id": 13,
       "name": "Protoplasm Harness",
-      "role": "Baron",
+      "role": "Mid",
       "tier": "A",
       "winrate": 47.1,
       "usage": 17.3,
@@ -2920,7 +2920,7 @@
     {
       "id": 14,
       "name": "Whispering Circlet",
-      "role": "Mid",
+      "role": "Support",
       "tier": "C",
       "winrate": 47.1,
       "usage": 17.4,
@@ -2930,7 +2930,7 @@
     {
       "id": 15,
       "name": "Diadem of Songs",
-      "role": "Mid",
+      "role": "Support",
       "tier": "C",
       "winrate": 47.1,
       "usage": 19.8,
@@ -2970,7 +2970,7 @@
     {
       "id": 19,
       "name": "Manamune",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "S",
       "winrate": 52,
       "usage": 25.2,
@@ -3050,7 +3050,7 @@
     {
       "id": 27,
       "name": "Muramana",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "S",
       "winrate": 52.1,
       "usage": 6.5,
@@ -3090,7 +3090,7 @@
     {
       "id": 31,
       "name": "Spirit Visage",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "A",
       "winrate": 52.2,
       "usage": 12.6,
@@ -3100,7 +3100,7 @@
     {
       "id": 32,
       "name": "Sunfire Aegis",
-      "role": "Baron",
+      "role": "Support",
       "tier": "A",
       "winrate": 52.2,
       "usage": 12.9,
@@ -3110,7 +3110,7 @@
     {
       "id": 33,
       "name": "Black Cleaver",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "S",
       "winrate": 52.2,
       "usage": 15.1,
@@ -3130,7 +3130,7 @@
     {
       "id": 35,
       "name": "Experimental Hexplate",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "S",
       "winrate": 52.2,
       "usage": 15.3,
@@ -3140,7 +3140,7 @@
     {
       "id": 36,
       "name": "Ravenous Hydra",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "S+",
       "winrate": 52.2,
       "usage": 15.4,
@@ -3160,7 +3160,7 @@
     {
       "id": 38,
       "name": "Trinity Force",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "S+",
       "winrate": 52.2,
       "usage": 15.7,
@@ -3200,7 +3200,7 @@
     {
       "id": 42,
       "name": "Statikk Shiv",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "S",
       "winrate": 52.3,
       "usage": 18.5,
@@ -3210,7 +3210,7 @@
     {
       "id": 43,
       "name": "Rabadon's Deathcap",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "S+",
       "winrate": 52.3,
       "usage": 18.7,
@@ -3260,7 +3260,7 @@
     {
       "id": 48,
       "name": "Lich Bane",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "S",
       "winrate": 53,
       "usage": 24.2,
@@ -3270,7 +3270,7 @@
     {
       "id": 49,
       "name": "Banshee's Veil",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "S",
       "winrate": 53,
       "usage": 24.4,
@@ -3280,7 +3280,7 @@
     {
       "id": 50,
       "name": "Redemption",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 53,
       "usage": 24.8,
@@ -3290,7 +3290,7 @@
     {
       "id": 51,
       "name": "Knight's Vow",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 53,
       "usage": 25,
@@ -3300,7 +3300,7 @@
     {
       "id": 52,
       "name": "Frozen Heart",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 53,
       "usage": 27.1,
@@ -3310,7 +3310,7 @@
     {
       "id": 53,
       "name": "Nashor's Tooth",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "S",
       "winrate": 53,
       "usage": 27.5,
@@ -3320,7 +3320,7 @@
     {
       "id": 54,
       "name": "Rylai's Crystal Scepter",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "A",
       "winrate": 53,
       "usage": 27.6,
@@ -3340,7 +3340,7 @@
     {
       "id": 56,
       "name": "Winter's Approach",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "B",
       "winrate": 53,
       "usage": 27.9,
@@ -3350,7 +3350,7 @@
     {
       "id": 57,
       "name": "Fimbulwinter",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "B",
       "winrate": 53,
       "usage": 30,
@@ -3360,7 +3360,7 @@
     {
       "id": 58,
       "name": "Guinsoo's Rageblade",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "S",
       "winrate": 53,
       "usage": 30.3,
@@ -3370,7 +3370,7 @@
     {
       "id": 59,
       "name": "Deathfire Grasp",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "S",
       "winrate": 53,
       "usage": 30.7,
@@ -3420,7 +3420,7 @@
     {
       "id": 64,
       "name": "Youmuu's Ghostblade",
-      "role": "Cazador",
+      "role": "Jungla",
       "tier": "A",
       "winrate": 53.1,
       "usage": 5.9,
@@ -3440,7 +3440,7 @@
     {
       "id": 66,
       "name": "Hextech Gunblade",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "S",
       "winrate": 53.1,
       "usage": 6.3,
@@ -3450,7 +3450,7 @@
     {
       "id": 67,
       "name": "Hextech Rocketbelt",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "A",
       "winrate": 53.1,
       "usage": 8.8,
@@ -3480,7 +3480,7 @@
     {
       "id": 70,
       "name": "Zhonya's Hourglass",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "S+",
       "winrate": 53.1,
       "usage": 9.3,
@@ -3500,7 +3500,7 @@
     {
       "id": 72,
       "name": "Morellonomicon",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "A",
       "winrate": 53.2,
       "usage": 12,
@@ -3510,7 +3510,7 @@
     {
       "id": 73,
       "name": "Umbral Glaive",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "A",
       "winrate": 53.2,
       "usage": 15.2,
@@ -3530,7 +3530,7 @@
     {
       "id": 75,
       "name": "Locket of the Iron Solari",
-      "role": "Baron",
+      "role": "Support",
       "tier": "C",
       "winrate": 53.2,
       "usage": 20.1,
@@ -3540,7 +3540,7 @@
     {
       "id": 76,
       "name": "Gargoyle Stoneplate",
-      "role": "Mid",
+      "role": "Support",
       "tier": "S",
       "winrate": 53.2,
       "usage": 20.4,
@@ -3550,7 +3550,7 @@
     {
       "id": 77,
       "name": "Mikael's Blessing",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 54,
       "usage": 29.5,
@@ -3570,7 +3570,7 @@
     {
       "id": 79,
       "name": "Rite Of Ruin",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "B",
       "winrate": 45.9,
       "usage": 31,
@@ -3580,7 +3580,7 @@
     {
       "id": 80,
       "name": "Ardent Censer",
-      "role": "Mid",
+      "role": "Support",
       "tier": "C",
       "winrate": 46.8,
       "usage": 22.1,
@@ -3590,7 +3590,7 @@
     {
       "id": 81,
       "name": "Essence Reaver",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "S",
       "winrate": 46.8,
       "usage": 22.4,
@@ -3610,7 +3610,7 @@
     {
       "id": 83,
       "name": "Titanic Hydra",
-      "role": "Baron",
+      "role": "Jungla",
       "tier": "S+",
       "winrate": 48.9,
       "usage": 32.7,
@@ -3620,7 +3620,7 @@
     {
       "id": 84,
       "name": "Edge of Night",
-      "role": "Cazador",
+      "role": "Baron",
       "tier": "S",
       "winrate": 49.7,
       "usage": 23.1,
@@ -3630,7 +3630,7 @@
     {
       "id": 85,
       "name": "Spectral Cutlass",
-      "role": "Cazador",
+      "role": "Jungla",
       "tier": "A",
       "winrate": 51.8,
       "usage": 5.8,
@@ -3640,7 +3640,7 @@
     {
       "id": 86,
       "name": "Imperial Mandate",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 51.8,
       "usage": 5.8,
@@ -3660,7 +3660,7 @@
     {
       "id": 88,
       "name": "Sword of Blossoming Dawn",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 51.8,
       "usage": 8.4,
@@ -3680,7 +3680,7 @@
     {
       "id": 90,
       "name": "Lightning Braid",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "S",
       "winrate": 51.8,
       "usage": 8.5,
@@ -3690,7 +3690,7 @@
     {
       "id": 91,
       "name": "Frozen Mallet",
-      "role": "Cazador",
+      "role": "Baron",
       "tier": "S",
       "winrate": 51.8,
       "usage": 8.6,
@@ -3710,7 +3710,7 @@
     {
       "id": 93,
       "name": "Wordless Promise",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 51.8,
       "usage": 8.8,
@@ -3720,7 +3720,7 @@
     {
       "id": 94,
       "name": "Hellfire Hatchet",
-      "role": "Cazador",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 51.8,
       "usage": 8.9,
@@ -3730,7 +3730,7 @@
     {
       "id": 95,
       "name": "Force of Nature",
-      "role": "Baron",
+      "role": "Mid",
       "tier": "A",
       "winrate": 45.6,
       "usage": 33,
@@ -3740,7 +3740,7 @@
     {
       "id": 96,
       "name": "Innervating Locket",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "S",
       "winrate": 45.6,
       "usage": 3.1,
@@ -3750,7 +3750,7 @@
     {
       "id": 97,
       "name": "The Golden Spatula",
-      "role": "Mid",
+      "role": "Support",
       "tier": "S+",
       "winrate": 45.6,
       "usage": 3.2,
@@ -3810,7 +3810,7 @@
     {
       "id": 103,
       "name": "Vigilant Wardstone",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 47.7,
       "usage": 13.4,
@@ -3860,7 +3860,7 @@
     {
       "id": 108,
       "name": "Death's Dance",
-      "role": "Baron",
+      "role": "Cazador",
       "tier": "S+",
       "winrate": 54.4,
       "usage": 3.6,
@@ -3870,7 +3870,7 @@
     {
       "id": 109,
       "name": "Chempunk Chainsword",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "S",
       "winrate": 47.2,
       "usage": 23.6,
@@ -3880,7 +3880,7 @@
     {
       "id": 110,
       "name": "Sundered Sky",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "S",
       "winrate": 47.2,
       "usage": 25.6,
@@ -3890,7 +3890,7 @@
     {
       "id": 111,
       "name": "Staff of Flowing Water",
-      "role": "Mid",
+      "role": "Support",
       "tier": "C",
       "winrate": 47.2,
       "usage": 26.2,
@@ -3900,7 +3900,7 @@
     {
       "id": 112,
       "name": "Moonstone Renewer",
-      "role": "Mid",
+      "role": "Support",
       "tier": "C",
       "winrate": 47.2,
       "usage": 26.3,
@@ -3910,7 +3910,7 @@
     {
       "id": 113,
       "name": "Echoes of Helia",
-      "role": "Mid",
+      "role": "Support",
       "tier": "C",
       "winrate": 47.2,
       "usage": 28.5,
@@ -3920,7 +3920,7 @@
     {
       "id": 114,
       "name": "Dawncore",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 47.2,
       "usage": 28.6,
@@ -3930,7 +3930,7 @@
     {
       "id": 115,
       "name": "Goredrinker",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "S+",
       "winrate": 47.2,
       "usage": 31.4,
@@ -3940,7 +3940,7 @@
     {
       "id": 116,
       "name": "Stridebreaker",
-      "role": "Cazador",
+      "role": "Mid",
       "tier": "S+",
       "winrate": 47.2,
       "usage": 31.5,
@@ -3990,7 +3990,7 @@
     {
       "id": 121,
       "name": "Rod of Ages",
-      "role": "Mid",
+      "role": "Support",
       "tier": "A",
       "winrate": 47.3,
       "usage": 7.8,
@@ -4000,7 +4000,7 @@
     {
       "id": 122,
       "name": "Iceborn Gauntlet",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "S",
       "winrate": 47.3,
       "usage": 10.2,
@@ -4010,7 +4010,7 @@
     {
       "id": 123,
       "name": "Hollow Radiance",
-      "role": "Baron",
+      "role": "Support",
       "tier": "A",
       "winrate": 47.3,
       "usage": 10.4,
@@ -4030,7 +4030,7 @@
     {
       "id": 125,
       "name": "Radiant Virtue",
-      "role": "Mid",
+      "role": "Support",
       "tier": "A",
       "winrate": 47.3,
       "usage": 10.7,
@@ -4090,7 +4090,7 @@
     {
       "id": 131,
       "name": "Duskblade of Draktharr",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "S",
       "winrate": 47.4,
       "usage": 18.8,
@@ -4110,7 +4110,7 @@
     {
       "id": 133,
       "name": "Prowler's Claw",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "A",
       "winrate": 47.4,
       "usage": 19,
@@ -4120,7 +4120,7 @@
     {
       "id": 134,
       "name": "Serylda's Grudge",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "S",
       "winrate": 47.4,
       "usage": 19.1,
@@ -4130,7 +4130,7 @@
     {
       "id": 135,
       "name": "Serpent's Fang",
-      "role": "Cazador",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 47.4,
       "usage": 19.2,
@@ -4140,7 +4140,7 @@
     {
       "id": 136,
       "name": "Axiom Arc",
-      "role": "Cazador",
+      "role": "Jungla",
       "tier": "A",
       "winrate": 47.4,
       "usage": 19.2,
@@ -4150,7 +4150,7 @@
     {
       "id": 137,
       "name": "Hubris",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "A",
       "winrate": 47.4,
       "usage": 19.3,
@@ -4160,7 +4160,7 @@
     {
       "id": 138,
       "name": "Profane Hydra",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "A",
       "winrate": 47.4,
       "usage": 19.4,
@@ -4170,7 +4170,7 @@
     {
       "id": 139,
       "name": "Voltaic Cyclosword",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "S",
       "winrate": 47.4,
       "usage": 19.5,
@@ -4180,7 +4180,7 @@
     {
       "id": 140,
       "name": "Shield of the Rakkor",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "A",
       "winrate": 48.1,
       "usage": 22.1,
@@ -4190,7 +4190,7 @@
     {
       "id": 141,
       "name": "Opportunity",
-      "role": "Cazador",
+      "role": "Jungla",
       "tier": "A",
       "winrate": 48.1,
       "usage": 22.2,
@@ -4200,7 +4200,7 @@
     {
       "id": 142,
       "name": "Anathema's Chains",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "B",
       "winrate": 51,
       "usage": 17.7,
@@ -4220,7 +4220,7 @@
     {
       "id": 144,
       "name": "Abyssal Mask",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "A",
       "winrate": 51,
       "usage": 23.4,
@@ -4230,7 +4230,7 @@
     {
       "id": 145,
       "name": "Rite of Ruin",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "S",
       "winrate": 50.4,
       "usage": 15.8,
@@ -4250,7 +4250,7 @@
     {
       "id": 147,
       "name": "Hubris",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "S",
       "winrate": 51.9,
       "usage": 4.2,
@@ -4260,7 +4260,7 @@
     {
       "id": 148,
       "name": "Legendary Fighter Item",
-      "role": "Jungla",
+      "role": "Mid",
       "tier": "C",
       "winrate": 46.2,
       "usage": 8.7,
@@ -4270,7 +4270,7 @@
     {
       "id": 149,
       "name": "Legendary Marksman Item",
-      "role": "Jungla",
+      "role": "Mid",
       "tier": "C",
       "winrate": 46.2,
       "usage": 8.7,
@@ -4280,7 +4280,7 @@
     {
       "id": 150,
       "name": "Legendary Assassin Item",
-      "role": "Jungla",
+      "role": "Mid",
       "tier": "C",
       "winrate": 46.2,
       "usage": 8.6,
@@ -4290,7 +4290,7 @@
     {
       "id": 151,
       "name": "Legendary Mage Item",
-      "role": "Jungla",
+      "role": "Mid",
       "tier": "C",
       "winrate": 46.2,
       "usage": 8.5,
@@ -4300,7 +4300,7 @@
     {
       "id": 152,
       "name": "Legendary Tank Item",
-      "role": "Jungla",
+      "role": "Mid",
       "tier": "C",
       "winrate": 46.2,
       "usage": 8.4,
@@ -4310,7 +4310,7 @@
     {
       "id": 153,
       "name": "Legendary Support Item",
-      "role": "Jungla",
+      "role": "Mid",
       "tier": "C",
       "winrate": 46.2,
       "usage": 8.3,
@@ -4320,7 +4320,7 @@
     {
       "id": 154,
       "name": "Prismatic Item",
-      "role": "Jungla",
+      "role": "Mid",
       "tier": "S+",
       "winrate": 46.2,
       "usage": 8.2,
@@ -4330,7 +4330,7 @@
     {
       "id": 155,
       "name": "Shardblade",
-      "role": "Jungla",
+      "role": "Mid",
       "tier": "B",
       "winrate": 46.3,
       "usage": 5.8,
@@ -4340,7 +4340,7 @@
     {
       "id": 156,
       "name": "Shurelya's Battlesong",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 46,
       "usage": 30,
@@ -4350,7 +4350,7 @@
     {
       "id": 157,
       "name": "Unending Despair",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "B",
       "winrate": 50.6,
       "usage": 20.7,
@@ -4380,7 +4380,7 @@
     {
       "id": 160,
       "name": "Dusk and Dawn",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "B",
       "winrate": 50.7,
       "usage": 18,
@@ -4450,7 +4450,7 @@
     {
       "id": 167,
       "name": "Whispering Circlet",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 50.7,
       "usage": 14.5,
@@ -4460,7 +4460,7 @@
     {
       "id": 168,
       "name": "Diadem of Songs",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 50.7,
       "usage": 12.2,
@@ -4510,7 +4510,7 @@
     {
       "id": 173,
       "name": "Guardian Angel",
-      "role": "Baron",
+      "role": "Mid",
       "tier": "B",
       "winrate": 45.7,
       "usage": 30.8,
@@ -4580,7 +4580,7 @@
     {
       "id": 180,
       "name": "Muramana",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 45.7,
       "usage": 25.4,
@@ -4620,7 +4620,7 @@
     {
       "id": 184,
       "name": "Sheen",
-      "role": "Jungla",
+      "role": "Mid",
       "tier": "B",
       "winrate": 45.8,
       "usage": 22.1,
@@ -4640,7 +4640,7 @@
     {
       "id": 186,
       "name": "Sunfire Aegis",
-      "role": "Baron",
+      "role": "Support",
       "tier": "B",
       "winrate": 45.8,
       "usage": 19.1,
@@ -4650,7 +4650,7 @@
     {
       "id": 187,
       "name": "Void Immolation",
-      "role": "Mid",
+      "role": "Support",
       "tier": "S+",
       "winrate": 45.8,
       "usage": 19,
@@ -4660,7 +4660,7 @@
     {
       "id": 188,
       "name": "Black Cleaver",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 45.8,
       "usage": 16.9,
@@ -4690,7 +4690,7 @@
     {
       "id": 191,
       "name": "Ravenous Hydra",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "B",
       "winrate": 45.8,
       "usage": 16.6,
@@ -4710,7 +4710,7 @@
     {
       "id": 193,
       "name": "Trinity Force",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "B",
       "winrate": 45.8,
       "usage": 16.2,
@@ -4720,7 +4720,7 @@
     {
       "id": 194,
       "name": "Heartsteel",
-      "role": "Baron",
+      "role": "Mid",
       "tier": "B",
       "winrate": 45.9,
       "usage": 13.7,
@@ -4810,7 +4810,7 @@
     {
       "id": 203,
       "name": "Redemption",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 46.6,
       "usage": 7.1,
@@ -4820,7 +4820,7 @@
     {
       "id": 204,
       "name": "Knight's Vow",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 46.6,
       "usage": 6.9,
@@ -4830,7 +4830,7 @@
     {
       "id": 205,
       "name": "Frozen Heart",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 46.6,
       "usage": 4.9,
@@ -4930,7 +4930,7 @@
     {
       "id": 215,
       "name": "Youmuu's Ghostblade",
-      "role": "Cazador",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 46.7,
       "usage": 26.1,
@@ -4990,7 +4990,7 @@
     {
       "id": 221,
       "name": "Zhonya's Hourglass",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "B",
       "winrate": 46.7,
       "usage": 22.7,
@@ -5020,7 +5020,7 @@
     {
       "id": 224,
       "name": "Zephyr",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "B",
       "winrate": 46.8,
       "usage": 17.4,
@@ -5040,7 +5040,7 @@
     {
       "id": 226,
       "name": "Locket of the Iron Solari",
-      "role": "Baron",
+      "role": "Support",
       "tier": "B",
       "winrate": 46.8,
       "usage": 11.8,
@@ -5050,7 +5050,7 @@
     {
       "id": 227,
       "name": "Gargoyle Stoneplate",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 46.8,
       "usage": 11.6,
@@ -5060,7 +5060,7 @@
     {
       "id": 228,
       "name": "Mikael's Blessing",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 47.6,
       "usage": 32.5,
@@ -5080,7 +5080,7 @@
     {
       "id": 230,
       "name": "Ardent Censer",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 50.4,
       "usage": 9.9,
@@ -5090,7 +5090,7 @@
     {
       "id": 231,
       "name": "Essence Reaver",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "B",
       "winrate": 50.4,
       "usage": 9.5,
@@ -5120,7 +5120,7 @@
     {
       "id": 234,
       "name": "Edge of Night",
-      "role": "Cazador",
+      "role": "Baron",
       "tier": "B",
       "winrate": 53.3,
       "usage": 8.9,
@@ -5130,7 +5130,7 @@
     {
       "id": 235,
       "name": "Spectral Cutlass",
-      "role": "Cazador",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 45.4,
       "usage": 26.2,
@@ -5140,7 +5140,7 @@
     {
       "id": 236,
       "name": "Imperial Mandate",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 45.4,
       "usage": 26.1,
@@ -5150,7 +5150,7 @@
     {
       "id": 237,
       "name": "Force of Nature",
-      "role": "Baron",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 49.2,
       "usage": 29,
@@ -5160,7 +5160,7 @@
     {
       "id": 238,
       "name": "The Golden Spatula",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 49.2,
       "usage": 28.8,
@@ -5170,7 +5170,7 @@
     {
       "id": 239,
       "name": "Horizon Focus",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 51.2,
       "usage": 23.8,
@@ -5180,7 +5180,7 @@
     {
       "id": 240,
       "name": "Cosmic Drive",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 51.2,
       "usage": 23.7,
@@ -5190,7 +5190,7 @@
     {
       "id": 241,
       "name": "Riftmaker",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 51.3,
       "usage": 21.4,
@@ -5200,7 +5200,7 @@
     {
       "id": 242,
       "name": "Night Harvester",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 51.3,
       "usage": 21.1,
@@ -5210,7 +5210,7 @@
     {
       "id": 243,
       "name": "Demonic Embrace",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 51.3,
       "usage": 21.1,
@@ -5220,7 +5220,7 @@
     {
       "id": 244,
       "name": "Crown of the Shattered Queen",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 51.3,
       "usage": 18.4,
@@ -5260,7 +5260,7 @@
     {
       "id": 248,
       "name": "Death's Dance",
-      "role": "Baron",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 48,
       "usage": 28.4,
@@ -5270,7 +5270,7 @@
     {
       "id": 249,
       "name": "Chempunk Chainsword",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "B",
       "winrate": 50.8,
       "usage": 8.4,
@@ -5280,7 +5280,7 @@
     {
       "id": 250,
       "name": "Sundered Sky",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "B",
       "winrate": 50.8,
       "usage": 6.3,
@@ -5290,7 +5290,7 @@
     {
       "id": 251,
       "name": "Staff of Flowing Water",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 50.8,
       "usage": 5.8,
@@ -5300,7 +5300,7 @@
     {
       "id": 252,
       "name": "Moonstone Renewer",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 50.8,
       "usage": 5.7,
@@ -5310,7 +5310,7 @@
     {
       "id": 253,
       "name": "Echoes of Helia",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 50.8,
       "usage": 3.5,
@@ -5320,7 +5320,7 @@
     {
       "id": 254,
       "name": "Dawncore",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 50.8,
       "usage": 3.4,
@@ -5330,7 +5330,7 @@
     {
       "id": 255,
       "name": "Goredrinker",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "A",
       "winrate": 50.8,
       "usage": 30.6,
@@ -5340,7 +5340,7 @@
     {
       "id": 256,
       "name": "Stridebreaker",
-      "role": "Cazador",
+      "role": "Baron",
       "tier": "B",
       "winrate": 50.8,
       "usage": 30.5,
@@ -5390,7 +5390,7 @@
     {
       "id": 261,
       "name": "Rod of Ages",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 50.9,
       "usage": 24.2,
@@ -5400,7 +5400,7 @@
     {
       "id": 262,
       "name": "Iceborn Gauntlet",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "B",
       "winrate": 50.9,
       "usage": 21.7,
@@ -5410,7 +5410,7 @@
     {
       "id": 263,
       "name": "Hollow Radiance",
-      "role": "Baron",
+      "role": "Support",
       "tier": "B",
       "winrate": 50.9,
       "usage": 21.6,
@@ -5430,7 +5430,7 @@
     {
       "id": 265,
       "name": "Radiant Virtue",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 50.9,
       "usage": 21.3,
@@ -5490,7 +5490,7 @@
     {
       "id": 271,
       "name": "Duskblade of Draktharr",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 51,
       "usage": 13.2,
@@ -5500,7 +5500,7 @@
     {
       "id": 272,
       "name": "Eclipse",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "B",
       "winrate": 51,
       "usage": 13.1,
@@ -5510,7 +5510,7 @@
     {
       "id": 273,
       "name": "Prowler's Claw",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "A",
       "winrate": 51,
       "usage": 13,
@@ -5520,7 +5520,7 @@
     {
       "id": 274,
       "name": "Serylda's Grudge",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 51,
       "usage": 12.9,
@@ -5530,7 +5530,7 @@
     {
       "id": 275,
       "name": "Serpent's Fang",
-      "role": "Cazador",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 51,
       "usage": 12.8,
@@ -5540,7 +5540,7 @@
     {
       "id": 276,
       "name": "Axiom Arc",
-      "role": "Cazador",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 51,
       "usage": 12.7,
@@ -5550,7 +5550,7 @@
     {
       "id": 277,
       "name": "Hubris",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 51,
       "usage": 12.6,
@@ -5560,7 +5560,7 @@
     {
       "id": 278,
       "name": "Profane Hydra",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 51,
       "usage": 12.5,
@@ -5570,7 +5570,7 @@
     {
       "id": 279,
       "name": "Voltaic Cyclosword",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 51,
       "usage": 12.4,
@@ -5580,7 +5580,7 @@
     {
       "id": 280,
       "name": "Opportunity",
-      "role": "Cazador",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 51.7,
       "usage": 9.8,
@@ -5590,7 +5590,7 @@
     {
       "id": 281,
       "name": "Anathema's Chains",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "B",
       "winrate": 54.6,
       "usage": 14.2,
@@ -5600,7 +5600,7 @@
     {
       "id": 282,
       "name": "Wooglet's Witchcap",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "S+",
       "winrate": 54.6,
       "usage": 14.2,
@@ -5630,7 +5630,7 @@
     {
       "id": 285,
       "name": "Obsidian Cleaver",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "S",
       "winrate": 54.6,
       "usage": 13.9,
@@ -5640,7 +5640,7 @@
     {
       "id": 286,
       "name": "Sanguine Blade",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "S",
       "winrate": 54.6,
       "usage": 13.8,
@@ -5650,7 +5650,7 @@
     {
       "id": 287,
       "name": "Runeglaive",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "S+",
       "winrate": 54.6,
       "usage": 13.6,
@@ -5660,7 +5660,7 @@
     {
       "id": 288,
       "name": "Multitool",
-      "role": "Jungla",
+      "role": "Cazador",
       "tier": "B",
       "winrate": 54.6,
       "usage": 13.5,
@@ -5670,7 +5670,7 @@
     {
       "id": 289,
       "name": "Abyssal Mask",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 54.6,
       "usage": 8.6,
@@ -5680,7 +5680,7 @@
     {
       "id": 290,
       "name": "Shurelya's Battlesong",
-      "role": "Mid",
+      "role": "Support",
       "tier": "A",
       "winrate": 45.2,
       "usage": 18.9,
@@ -5690,7 +5690,7 @@
     {
       "id": 291,
       "name": "Whispering Circlet",
-      "role": "Mid",
+      "role": "Support",
       "tier": "C",
       "winrate": 49.8,
       "usage": 3.5,
@@ -5700,7 +5700,7 @@
     {
       "id": 292,
       "name": "Diadem of Songs",
-      "role": "Mid",
+      "role": "Support",
       "tier": "C",
       "winrate": 49.9,
       "usage": 31.2,
@@ -5730,7 +5730,7 @@
     {
       "id": 295,
       "name": "Manamune",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "S",
       "winrate": 54.8,
       "usage": 25.7,
@@ -5750,7 +5750,7 @@
     {
       "id": 297,
       "name": "Muramana",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "S",
       "winrate": 54.9,
       "usage": 14.4,
@@ -5780,7 +5780,7 @@
     {
       "id": 300,
       "name": "Redemption",
-      "role": "Mid",
+      "role": "Support",
       "tier": "A",
       "winrate": 45.7,
       "usage": 26.1,
@@ -5790,7 +5790,7 @@
     {
       "id": 301,
       "name": "Knight's Vow",
-      "role": "Mid",
+      "role": "Support",
       "tier": "S",
       "winrate": 45.7,
       "usage": 25.9,
@@ -5800,7 +5800,7 @@
     {
       "id": 302,
       "name": "Frozen Heart",
-      "role": "Mid",
+      "role": "Support",
       "tier": "A",
       "winrate": 45.7,
       "usage": 23.9,
@@ -5830,7 +5830,7 @@
     {
       "id": 305,
       "name": "Locket of the Iron Solari",
-      "role": "Baron",
+      "role": "Support",
       "tier": "A",
       "winrate": 46,
       "usage": 30.8,
@@ -5840,7 +5840,7 @@
     {
       "id": 306,
       "name": "Mikael's Blessing",
-      "role": "Mid",
+      "role": "Support",
       "tier": "A",
       "winrate": 46.7,
       "usage": 21.4,
@@ -5850,7 +5850,7 @@
     {
       "id": 307,
       "name": "Ardent Censer",
-      "role": "Mid",
+      "role": "Support",
       "tier": "A",
       "winrate": 49.6,
       "usage": 28.9,
@@ -5860,7 +5860,7 @@
     {
       "id": 308,
       "name": "Imperial Mandate",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 54.6,
       "usage": 15.1,
@@ -5870,7 +5870,7 @@
     {
       "id": 309,
       "name": "Staff of Flowing Water",
-      "role": "Mid",
+      "role": "Support",
       "tier": "A",
       "winrate": 49.9,
       "usage": 24.7,
@@ -5880,7 +5880,7 @@
     {
       "id": 310,
       "name": "Moonstone Renewer",
-      "role": "Mid",
+      "role": "Support",
       "tier": "S",
       "winrate": 49.9,
       "usage": 24.6,
@@ -5890,7 +5890,7 @@
     {
       "id": 311,
       "name": "Echoes of Helia",
-      "role": "Mid",
+      "role": "Support",
       "tier": "A",
       "winrate": 50,
       "usage": 22.4,
@@ -5900,7 +5900,7 @@
     {
       "id": 312,
       "name": "Dawncore",
-      "role": "Mid",
+      "role": "Support",
       "tier": "S",
       "winrate": 50,
       "usage": 22.3,
@@ -5910,7 +5910,7 @@
     {
       "id": 313,
       "name": "Rod of Ages",
-      "role": "Mid",
+      "role": "Support",
       "tier": "A",
       "winrate": 50.1,
       "usage": 13.1,
@@ -5920,7 +5920,7 @@
     {
       "id": 314,
       "name": "Abyssal Mask",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "A",
       "winrate": 53.8,
       "usage": 27.5,
@@ -5930,7 +5930,7 @@
     {
       "id": 315,
       "name": "Darksteel Talons",
-      "role": "Cazador",
+      "role": "Baron",
       "tier": "A",
       "winrate": 51.1,
       "usage": 30.6,
@@ -5950,7 +5950,7 @@
     {
       "id": 317,
       "name": "Demon King's Crown",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "A",
       "winrate": 51.1,
       "usage": 30.8,
@@ -5980,7 +5980,7 @@
     {
       "id": 320,
       "name": "Sword of the Divine",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "A",
       "winrate": 51.1,
       "usage": 3.1,
@@ -6000,7 +6000,7 @@
     {
       "id": 322,
       "name": "Sanguine Gift",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "A",
       "winrate": 51.1,
       "usage": 3.3,
@@ -6020,7 +6020,7 @@
     {
       "id": 324,
       "name": "Talisman Of Ascension",
-      "role": "Mid",
+      "role": "Support",
       "tier": "A",
       "winrate": 51.1,
       "usage": 3.5,
@@ -6050,7 +6050,7 @@
     {
       "id": 327,
       "name": "Twin Mask",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "A",
       "winrate": 51.2,
       "usage": 8.9,
@@ -6060,7 +6060,7 @@
     {
       "id": 328,
       "name": "Hexbolt Companion",
-      "role": "Cazador",
+      "role": "Baron",
       "tier": "A",
       "winrate": 51.2,
       "usage": 9,
@@ -6080,7 +6080,7 @@
     {
       "id": 330,
       "name": "Reaper's Toll",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "A",
       "winrate": 51.2,
       "usage": 11.8,
@@ -6090,7 +6090,7 @@
     {
       "id": 331,
       "name": "Gargoyle Stoneplate",
-      "role": "Mid",
+      "role": "Support",
       "tier": "A",
       "winrate": 52.2,
       "usage": 11.4,
@@ -6150,7 +6150,7 @@
     {
       "id": 337,
       "name": "Radiant Virtue",
-      "role": "Mid",
+      "role": "Support",
       "tier": "A",
       "winrate": 46.3,
       "usage": 31.7,
@@ -6170,7 +6170,7 @@
     {
       "id": 339,
       "name": "Duskblade of Draktharr",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "A",
       "winrate": 46.4,
       "usage": 9.8,
@@ -6180,7 +6180,7 @@
     {
       "id": 340,
       "name": "Mirage Blade",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "A",
       "winrate": 51.1,
       "usage": 27.5,
@@ -6190,7 +6190,7 @@
     {
       "id": 341,
       "name": "Gambler's Blade",
-      "role": "Cazador",
+      "role": "Baron",
       "tier": "A",
       "winrate": 51.1,
       "usage": 27.6,
@@ -6200,7 +6200,7 @@
     {
       "id": 342,
       "name": "Reality Fracture",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "A",
       "winrate": 51.1,
       "usage": 27.7,
@@ -6210,7 +6210,7 @@
     {
       "id": 343,
       "name": "Hemomancer's Helm",
-      "role": "Jungla",
+      "role": "Baron",
       "tier": "A",
       "winrate": 51.1,
       "usage": 27.7,
@@ -6220,7 +6220,7 @@
     {
       "id": 344,
       "name": "Innervating Locket",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "A",
       "winrate": 51.1,
       "usage": 27.8,
@@ -6230,7 +6230,7 @@
     {
       "id": 345,
       "name": "Empyrean Promise",
-      "role": "Mid",
+      "role": "Support",
       "tier": "A",
       "winrate": 51.1,
       "usage": 27.9,
@@ -6240,7 +6240,7 @@
     {
       "id": 346,
       "name": "Dragonheart",
-      "role": "Cazador",
+      "role": "Baron",
       "tier": "A",
       "winrate": 51.1,
       "usage": 28,
@@ -6250,7 +6250,7 @@
     {
       "id": 347,
       "name": "Decapitator",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "A",
       "winrate": 51.1,
       "usage": 28.1,
@@ -6260,7 +6260,7 @@
     {
       "id": 348,
       "name": "Runecarver",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "A",
       "winrate": 51.1,
       "usage": 28.2,
@@ -6270,7 +6270,7 @@
     {
       "id": 349,
       "name": "Cruelty",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "A",
       "winrate": 51.1,
       "usage": 28.3,
@@ -6280,7 +6280,7 @@
     {
       "id": 350,
       "name": "Moonflair Spellblade",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "A",
       "winrate": 51.1,
       "usage": 30.3,
@@ -6330,7 +6330,7 @@
     {
       "id": 355,
       "name": "Regicide",
-      "role": "Cazador",
+      "role": "Jungla",
       "tier": "A",
       "winrate": 51.1,
       "usage": 30.8,
@@ -6340,7 +6340,7 @@
     {
       "id": 356,
       "name": "Kinkou Jitte",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "A",
       "winrate": 51.1,
       "usage": 30.9,
@@ -6350,7 +6350,7 @@
     {
       "id": 357,
       "name": "Pyromancer's Cloak",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "A",
       "winrate": 51.1,
       "usage": 31.1,
@@ -6380,7 +6380,7 @@
     {
       "id": 360,
       "name": "Twilight's Edge",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "A",
       "winrate": 51.1,
       "usage": 3.3,
@@ -6400,7 +6400,7 @@
     {
       "id": 362,
       "name": "Puppeteer",
-      "role": "Mid",
+      "role": "Support",
       "tier": "A",
       "winrate": 51.1,
       "usage": 3.5,
@@ -6440,7 +6440,7 @@
     {
       "id": 366,
       "name": "Cloak of Starry Night",
-      "role": "Baron",
+      "role": "Mid",
       "tier": "B",
       "winrate": 46.5,
       "usage": 9.8,
@@ -6450,7 +6450,7 @@
     {
       "id": 367,
       "name": "Sword of the Divine",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "B",
       "winrate": 46.5,
       "usage": 7.8,
@@ -6470,7 +6470,7 @@
     {
       "id": 369,
       "name": "Zephyr",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "B",
       "winrate": 47.5,
       "usage": 5.3,
@@ -6480,7 +6480,7 @@
     {
       "id": 370,
       "name": "Gargoyle Stoneplate",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 47.5,
       "usage": 29.5,
@@ -6500,7 +6500,7 @@
     {
       "id": 372,
       "name": "The Golden Spatula",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 49.9,
       "usage": 16.7,
@@ -6510,7 +6510,7 @@
     {
       "id": 373,
       "name": "Crown of the Shattered Queen",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 52,
       "usage": 6.4,
@@ -6520,7 +6520,7 @@
     {
       "id": 374,
       "name": "Gambler's Blade",
-      "role": "Cazador",
+      "role": "Mid",
       "tier": "B",
       "winrate": 46.4,
       "usage": 13.3,
@@ -6530,7 +6530,7 @@
     {
       "id": 375,
       "name": "Cruelty",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "B",
       "winrate": 46.4,
       "usage": 12.6,
@@ -6560,7 +6560,7 @@
     {
       "id": 378,
       "name": "Abyssal Scepter",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 49,
       "usage": 16.5,
@@ -6570,7 +6570,7 @@
     {
       "id": 379,
       "name": "Archangel's Staff",
-      "role": "Mid",
+      "role": "Support",
       "tier": "A",
       "winrate": 49,
       "usage": 16.3,
@@ -6580,7 +6580,7 @@
     {
       "id": 380,
       "name": "Manamune",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "C",
       "winrate": 49,
       "usage": 16.2,
@@ -6600,7 +6600,7 @@
     {
       "id": 382,
       "name": "Frozen Mallet",
-      "role": "Baron",
+      "role": "Jungla",
       "tier": "S+",
       "winrate": 49,
       "usage": 10.6,
@@ -6650,7 +6650,7 @@
     {
       "id": 387,
       "name": "Last Whisper",
-      "role": "Cazador",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 49.1,
       "usage": 7.4,
@@ -6690,7 +6690,7 @@
     {
       "id": 391,
       "name": "Stark's Fervor",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 49.1,
       "usage": 32.1,
@@ -6700,7 +6700,7 @@
     {
       "id": 392,
       "name": "Ohmwrecker",
-      "role": "Mid",
+      "role": "Support",
       "tier": "A",
       "winrate": 49.1,
       "usage": 31.6,
@@ -6710,7 +6710,7 @@
     {
       "id": 393,
       "name": "Banner of Command",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 49.2,
       "usage": 29.3,
@@ -6720,7 +6720,7 @@
     {
       "id": 394,
       "name": "Soul Shroud",
-      "role": "Mid",
+      "role": "Support",
       "tier": "C",
       "winrate": 49.2,
       "usage": 29,
@@ -6730,7 +6730,7 @@
     {
       "id": 395,
       "name": "Force of Nature",
-      "role": "Support",
+      "role": "Jungla",
       "tier": "A",
       "winrate": 49.2,
       "usage": 28.9,
@@ -6740,7 +6740,7 @@
     {
       "id": 396,
       "name": "Spirit Visage",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "A",
       "winrate": 49.2,
       "usage": 28.8,
@@ -6760,7 +6760,7 @@
     {
       "id": 398,
       "name": "Shurelya's Reverie",
-      "role": "Mid",
+      "role": "Support",
       "tier": "C",
       "winrate": 49.2,
       "usage": 28.4,
@@ -6770,7 +6770,7 @@
     {
       "id": 399,
       "name": "The Black Cleaver",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "S",
       "winrate": 49.2,
       "usage": 26.3,
@@ -6820,7 +6820,7 @@
     {
       "id": 404,
       "name": "Trinity Force",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "S+",
       "winrate": 49.2,
       "usage": 25.6,
@@ -6830,7 +6830,7 @@
     {
       "id": 405,
       "name": "Warmog's Armor",
-      "role": "Baron",
+      "role": "Jungla",
       "tier": "S",
       "winrate": 49.2,
       "usage": 23.2,
@@ -6840,7 +6840,7 @@
     {
       "id": 406,
       "name": "Innervating Locket",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "A",
       "winrate": 49.2,
       "usage": 23.1,
@@ -6910,7 +6910,7 @@
     {
       "id": 413,
       "name": "Aegis of the Legion",
-      "role": "Baron",
+      "role": "Support",
       "tier": "C",
       "winrate": 49.9,
       "usage": 16.7,
@@ -6920,7 +6920,7 @@
     {
       "id": 414,
       "name": "Runic Bulwark",
-      "role": "Baron",
+      "role": "Support",
       "tier": "S",
       "winrate": 49.9,
       "usage": 16.5,
@@ -6940,7 +6940,7 @@
     {
       "id": 416,
       "name": "Frozen Heart",
-      "role": "Mid",
+      "role": "Support",
       "tier": "S",
       "winrate": 50,
       "usage": 14.3,
@@ -6960,7 +6960,7 @@
     {
       "id": 418,
       "name": "Nashor's Tooth",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "B",
       "winrate": 50,
       "usage": 13.8,
@@ -6980,7 +6980,7 @@
     {
       "id": 420,
       "name": "Guinsoo's Rageblade",
-      "role": "Mid",
+      "role": "Jungla",
       "tier": "A",
       "winrate": 50,
       "usage": 11,
@@ -7020,7 +7020,7 @@
     {
       "id": 424,
       "name": "Mercurial Scimitar",
-      "role": "Support",
+      "role": "Baron",
       "tier": "S+",
       "winrate": 50,
       "usage": 7.7,
@@ -7030,7 +7030,7 @@
     {
       "id": 425,
       "name": "Youmuu's Ghostblade",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "A",
       "winrate": 50.1,
       "usage": 5.5,
@@ -7070,7 +7070,7 @@
     {
       "id": 429,
       "name": "Will of the Ancients",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 50.1,
       "usage": 32.6,
@@ -7090,7 +7090,7 @@
     {
       "id": 431,
       "name": "Maw of Malmortius",
-      "role": "Support",
+      "role": "Baron",
       "tier": "S+",
       "winrate": 50.1,
       "usage": 32.2,
@@ -7100,7 +7100,7 @@
     {
       "id": 432,
       "name": "Zhonya's Hourglass",
-      "role": "Mid",
+      "role": "Baron",
       "tier": "S+",
       "winrate": 50.1,
       "usage": 32.1,
@@ -7110,7 +7110,7 @@
     {
       "id": 433,
       "name": "Morellonomicon",
-      "role": "Mid",
+      "role": "Support",
       "tier": "C",
       "winrate": 50.1,
       "usage": 29.4,
@@ -7120,7 +7120,7 @@
     {
       "id": 434,
       "name": "Zephyr",
-      "role": "Mid",
+      "role": "Cazador",
       "tier": "A",
       "winrate": 50.1,
       "usage": 26.8,
@@ -7130,7 +7130,7 @@
     {
       "id": 435,
       "name": "Shushei's Mana Jug",
-      "role": "Mid",
+      "role": "Support",
       "tier": "A",
       "winrate": 50.1,
       "usage": 26.6,
@@ -7140,7 +7140,7 @@
     {
       "id": 436,
       "name": "Locket of the Iron Solari",
-      "role": "Baron",
+      "role": "Support",
       "tier": "C",
       "winrate": 50.2,
       "usage": 21.2,
@@ -7160,7 +7160,7 @@
     {
       "id": 438,
       "name": "Ardent Censer",
-      "role": "Mid",
+      "role": "Support",
       "tier": "C",
       "winrate": 53.8,
       "usage": 19.3,
@@ -7170,7 +7170,7 @@
     {
       "id": 439,
       "name": "Zz'Rot Portal",
-      "role": "Baron",
+      "role": "Support",
       "tier": "A",
       "winrate": 53.8,
       "usage": 16.6,
@@ -7200,7 +7200,7 @@
     {
       "id": 442,
       "name": "Golden Spatula",
-      "role": "Mid",
+      "role": "Support",
       "tier": "B",
       "winrate": 47.9,
       "usage": 14.8,
@@ -7216,10 +7216,10 @@
       "winrate": 55,
       "items": [
         "Seraph's Embrace",
-        "Muramana",
         "Archangel's Staff",
-        "Manamune",
-        "Anathema's Chains"
+        "Hex Core mk-2",
+        "Perfect Hex Core",
+        "Void Staff"
       ]
     },
     {
@@ -7229,23 +7229,23 @@
       "winrate": 54,
       "items": [
         "Seraph's Embrace",
-        "Muramana",
         "Archangel's Staff",
-        "Manamune",
-        "Anathema's Chains"
+        "Hex Core mk-2",
+        "Perfect Hex Core",
+        "Void Staff"
       ]
     },
     {
       "id": 3,
-      "champion": "Nunu & Willump",
+      "champion": "Zed",
       "role": "Mid",
       "winrate": 54,
       "items": [
         "Seraph's Embrace",
-        "Muramana",
         "Archangel's Staff",
-        "Manamune",
-        "Anathema's Chains"
+        "Hex Core mk-2",
+        "Perfect Hex Core",
+        "Void Staff"
       ]
     },
     {
@@ -7254,11 +7254,11 @@
       "role": "Jungla",
       "winrate": 50,
       "items": [
-        "Multitool",
-        "Hemomancer's Helm",
-        "Seraph's Embrace",
-        "Muramana",
-        "Shardblade"
+        "Abyssal Mask",
+        "Morellonomicon",
+        "Youmuu's Ghostblade",
+        "Hextech Gunblade",
+        "Hextech Rocketbelt"
       ]
     },
     {
@@ -7267,11 +7267,11 @@
       "role": "Jungla",
       "winrate": 50,
       "items": [
-        "Multitool",
-        "Hemomancer's Helm",
-        "Seraph's Embrace",
-        "Muramana",
-        "Shardblade"
+        "Abyssal Mask",
+        "Morellonomicon",
+        "Youmuu's Ghostblade",
+        "Hextech Gunblade",
+        "Hextech Rocketbelt"
       ]
     },
     {
@@ -7280,11 +7280,11 @@
       "role": "Jungla",
       "winrate": 50,
       "items": [
-        "Multitool",
-        "Hemomancer's Helm",
-        "Seraph's Embrace",
-        "Muramana",
-        "Shardblade"
+        "Abyssal Mask",
+        "Morellonomicon",
+        "Youmuu's Ghostblade",
+        "Hextech Gunblade",
+        "Hextech Rocketbelt"
       ]
     },
     {
@@ -7296,12 +7296,25 @@
         "Thornmail",
         "Zeke's Convergence",
         "Trailblazer",
-        "Adaptive Helm",
-        "Death's Dance"
+        "Wooglet's Witchcap",
+        "Adaptive Helm"
       ]
     },
     {
       "id": 8,
+      "champion": "Nunu & Willump",
+      "role": "Baron",
+      "winrate": 54,
+      "items": [
+        "Thornmail",
+        "Zeke's Convergence",
+        "Trailblazer",
+        "Wooglet's Witchcap",
+        "Adaptive Helm"
+      ]
+    },
+    {
+      "id": 9,
       "champion": "Poppy",
       "role": "Baron",
       "winrate": 54,
@@ -7309,60 +7322,86 @@
         "Thornmail",
         "Zeke's Convergence",
         "Trailblazer",
-        "Adaptive Helm",
-        "Death's Dance"
-      ]
-    },
-    {
-      "id": 9,
-      "champion": "K'Sante",
-      "role": "Baron",
-      "winrate": 54,
-      "items": [
-        "Thornmail",
-        "Zeke's Convergence",
-        "Trailblazer",
-        "Adaptive Helm",
-        "Death's Dance"
+        "Wooglet's Witchcap",
+        "Adaptive Helm"
       ]
     },
     {
       "id": 10,
+      "champion": "Lulu",
+      "role": "Support",
+      "winrate": 54,
+      "items": [
+        "Imperial Mandate",
+        "Mikael's Blessing",
+        "Ardent Censer",
+        "Zz'Rot Portal",
+        "Locket of the Iron Solari"
+      ]
+    },
+    {
+      "id": 11,
+      "champion": "Anivia",
+      "role": "Support",
+      "winrate": 54,
+      "items": [
+        "Imperial Mandate",
+        "Mikael's Blessing",
+        "Ardent Censer",
+        "Zz'Rot Portal",
+        "Locket of the Iron Solari"
+      ]
+    },
+    {
+      "id": 12,
+      "champion": "Rammus",
+      "role": "Support",
+      "winrate": 54,
+      "items": [
+        "Imperial Mandate",
+        "Mikael's Blessing",
+        "Ardent Censer",
+        "Zz'Rot Portal",
+        "Locket of the Iron Solari"
+      ]
+    },
+    {
+      "id": 13,
       "champion": "Jayce",
       "role": "Cazador",
       "winrate": 54,
       "items": [
         "Terminus",
-        "Deathblade",
-        "Edge of Night",
-        "Sword of the Divine",
-        "Mercurial Scimitar"
+        "Muramana",
+        "Manamune",
+        "Anathema's Chains",
+        "Deathblade"
       ]
     },
     {
-      "id": 11,
+      "id": 14,
       "champion": "Ashe",
       "role": "Cazador",
       "winrate": 54,
       "items": [
         "Terminus",
-        "Deathblade",
-        "Edge of Night",
-        "Sword of the Divine",
-        "Mercurial Scimitar"
+        "Muramana",
+        "Manamune",
+        "Anathema's Chains",
+        "Deathblade"
       ]
     },
     {
-      "id": 12,
+      "id": 15,
       "champion": "Kalista",
       "role": "Cazador",
       "winrate": 54,
       "items": [
         "Terminus",
-        "Deathblade",
-        "Edge of Night",
-        "Sword of the Divine",
-        "Mercurial Scimitar"
+        "Muramana",
+        "Manamune",
+        "Anathema's Chains",
+        "Deathblade"
       ]
     }
   ],
