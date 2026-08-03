@@ -44,6 +44,8 @@ vercel deploy --prod
 
 URL: https://wild-rift-two.vercel.app
 
+Repositorio: https://github.com/destinys7513/wild-side-
+
 ## Especificación (Spec Kit)
 
 Los documentos de especificación viven en `.specify/memory/` (constitution, spec, plan, data-model, tasks, contracts).
